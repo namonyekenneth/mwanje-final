@@ -1,0 +1,92 @@
+*{margin: 0;
+    padding: 0;}
+    
+    /* logo */
+    .logo{
+      float: left;
+      
+    }
+  
+    /* Portifolio */
+    .port{
+        background-color: orangered;
+        height: 300px;
+        width: 100%;
+    }
+
+
+/* BODY */
+
+    p{
+        text-align: center;
+        padding-top: 390px;
+        font-size: xx-large;
+        
+      }
+      
+      .image-contain{
+        align-items: start;
+justify-content: center;
+      }
+    
+      .image-container {
+        position: relative;
+        display: inline-block;
+        /* padding-left: 20px; */
+        margin: 2%;
+      }
+    
+      .image-container img {
+        width: 443px; 
+        height: 260px; 
+        /* padding: 40px; */
+        border-radius: 20%;
+    
+      }
+    
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background-color:  rgb(242, 243, 237);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:black;
+      }
+    
+      .image-container:hover .overlay {
+        opacity: 1;
+      }
+    
+      .overlay-content {
+        text-align: center;
+    }
+
+
+
+
+    /* TESTMONIOLS */
+
+    h1{
+      text-align: center;
+    }
+
+    .testmoniols{
+      display: flex;
+      gap: 30px;
+      justify-content: space-around;
+    }
+test1{
+  display: block;
+}
+.img img{
+  border-radius: 50%;
+}
+
+
+
